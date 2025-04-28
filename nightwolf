@@ -1,0 +1,25 @@
+var1 = int(input("enter the var1: "))
+var2 = int(input("enter the second var2: "))
+sum = var1 + var2
+print("sum value: ",sum)
+division = var1 / var2
+print("division value: ", division)
+mul = var1 * var2
+print("multiplication value: ", mul)
+sub = var1 - var2
+print("substraction value: ", sub)
+per = (var1 * var2)/2
+print("per value: ", per)
+area = var1 ** var2
+print("area value: ", area)
+# i create here another problem i don't know why but problem gives me another inspiration.
+if( var1 >= var2 ):
+    print("this is very dangerous")
+elif( var1 <= var2):
+    print("who are you")
+elif( var1 != var2 ):
+    print("this number is not equal")
+elif( var1 == var2 ):
+    print("this equation is equal")
+else:
+    print("hey buddy never come back again")
